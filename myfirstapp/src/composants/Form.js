@@ -51,9 +51,6 @@ export default class Form extends Component {
                     <button class="bttn" type="submit">S'inscrire</button>
                 </div>
             </form>
-
-
-        <p>Veillez, si vous avez déjà un compte cliquer <a href='#'><i>Ici</i></a> </p>
         </div>
     )
 }
