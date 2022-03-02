@@ -1,0 +1,75 @@
+.container{
+    align-items: center;
+    margin-top: 5rem;
+    color: white;
+    background-color: black;
+}
+
+.form-control{
+    outline-color: none;
+    border-radius: 8px;
+    border: 2px solid  #ff7300;
+}
+
+.col-md-4{
+    transition: 100ms ease-in-out;
+}
+.col-md-4:hover{
+    color:  #ff7300;
+    font-size: 15px;
+}
+
+
+.mb-3{
+    transition: 100ms ease-in-out;
+}
+.mb-3:hover{
+    color:  #ff7300;
+    font-size: 15px;
+}
+
+
+.col-md-6{
+    transition: 100ms ease-in-out;
+}
+.col-md-6:hover{
+    color:  #ff7300;
+    font-size: 15px;
+}
+
+
+.col-12{
+    display: flex;
+    justify-content: center;
+    transition: 100ms ease-in-out;
+}
+.col-12:hover{
+    color:  #ff7300;
+    font-size: 15px;
+}
+
+.input-group.has-validation > :nth-last-child(n+3):not(.dropdown-toggle):not(.dropdown-menu){
+    background-color:  #ff7300;
+}
+
+
+.bttn{
+    border-radius: 8px;
+    width: 7em;
+    height: 2.5em;
+    background-color: rgb(41, 38, 38);
+    color: #ff7300;
+    border: 2px solid #ff7300;
+    transition: 2.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.bttn:hover{
+    background-color: #ff7300;
+    color: white;
+    outline: none;
+}
+
+p{
+    margin-top: 3vh;
+    text-align: center;
+}

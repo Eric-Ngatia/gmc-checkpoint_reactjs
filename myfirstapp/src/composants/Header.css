@@ -1,0 +1,57 @@
+.navbar{
+    background-color: rgb(41, 38, 38);
+}
+
+.form{
+    background-color: green;
+}
+
+.navbar-light .navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: rgb(255, 115, 0);
+    margin-right: 2rem;
+}
+
+.navbar-light .navbar-brand:hover{
+    color: rgb(255, 115, 0);
+    font-size: 2em;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    transition: 100ms ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(255, 115, 0);
+    font-size: 3vh;
+}
+
+.show > .nav-link:hover{
+    color: rgb(255, 115, 0);
+    font-size: 5vh;
+}
+
+.form{
+    background-color: rgb(41, 38, 38);
+    color: white;
+    outline: none;
+    border-radius: 8px;
+    border-color:#ff7300;
+    margin-right: 2vh;
+}
+
+.btn{
+    outline: none;
+    border-color:#ff7300;
+    color: #ff7300;
+    border-radius: 8px;
+    transition: 2.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.btn:hover{
+    background-color: #ff7300;
+    color: white;
+    outline: none;
+}
